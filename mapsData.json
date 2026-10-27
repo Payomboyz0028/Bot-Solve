@@ -1,190 +1,536 @@
 {
   "maps": [
     {
-      "id": "hunting_together",
-      "name": "[HALLOWEEN] Hunting Together",
+      "id": "_halloween_hunting_together",
+      "name": "🎃 [HALLOWEEN] Hunting Together",
       "placeId": "117483759937632",
+      "universeId": "10769401924",
+      "category": "Adventure & Kaitun",
       "tier": "VIP",
-      "zones": "4 โซน",
-      "category": "Action RPG / Event",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🎃 Auto Halloween Boss Farm & Mob Magnet",
-        "⚡ Safe Hover Combat (ระยะ 5.5 สตัดเหนือหัวม็อบ)",
-        "🎒 Auto Loot Candy & Event Tokens",
-        "🛡️ Anti-Cheat Bypass (Bypass Velocity & CFrame Kick)",
-        "🏃 WalkSpeed Booster & Fly Touch Controller"
+        "PAYOMBØYZ HUB | Hunting Together | PayomboyUIz UI (v6.0 - Ultimate Kaitun 24/7)",
+        "👑 Master Kaitun Mode (เปิด/ปิดไก่ตัน 24/7 คุมระบบย่อยทั้งหมดได้อย่างอิสระ)",
+        "⚔️ Multi-Mode Combat Engine:",
+        "🚀 Ground Farm (ประชิดพื้น ดาเมจขึ้น 100% แก้บัคตีไม่เข้า ไม่โดนแบน Fly)",
+        "⭐ Built-in Bot (บอทแท้ในเกม ฉลาด ปลอดภัย ไม่โดนแบน)",
+        "☁️ Safe Hover (ลอยฟ้าเหนือหัว 5-7 studs)",
+        "🎯 Advanced Targeting:"
       ],
-      "hotkey": "[E] บิน / UI เปิด-ปิดอัตโนมัติ",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-ec077f91c3d7eb16f2a019561a4fd77b/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-a6891960122c87a1d3bec62fa1896a60/768/432/Image/Png/noFilter"
     },
     {
-      "id": "build_an_ant",
-      "name": "Build An Ant Empire",
-      "placeId": "78498532994387",
-      "tier": "VVIP",
-      "zones": "1 โซน",
+      "id": "_build_an_ant_empire",
+      "name": "🐜 Build An Ant Empire",
+      "placeId": "78490532994307",
+      "universeId": "10436530264",
       "category": "Tycoon & Simulator",
-      "features": [
-        "🐜 Infinite Sugar / Food Auto-Harvest",
-        "👑 Instant Queen Upgrade & Worker Ant Spawner",
-        "⚡ Zone Teleport & Instant Base Delivery",
-        "🪙 Auto Collect Coins & Egg Incubator Fast Hatch",
-        "🛡️ Noclip Walkthrough & Anti-Lag Optimization"
-      ],
-      "hotkey": "GUI ออโต้ / เมนูคลิกข้างจอ",
-      "status": "🟢 ONLINE (V9.2)"
-    },
-    {
-      "id": "my_anime_mine",
-      "name": "My Anime Mine",
-      "placeId": "79389859854988",
       "tier": "VVIP",
-      "zones": "1 โซน",
-      "category": "Mining & Gathering",
+      "hotkey": "RightControl / Mobile Button",
       "features": [
-        "⛏️ Auto Mine All Ores (เจาะแร่ทุกชั้นแบบออโต้)",
-        "💎 Instant Gem & Chest Magnet Collector",
-        "⚡ Pickaxe Fast Swing & Hitbox Multiplier",
-        "🎒 Auto Sell Bag When Full (วาร์ปขายแร่อัตโนมัติ)",
-        "🚀 Fly Mode & Free Cam Visualizer"
+        "👑 Start with a small colony and grow it into a massive ant empire! Roll ants, collect food, earn money & auto upgrades.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "[F] ขุดรัว / ปุ่มลัดบนมือถือ",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-2ecdf7263d095e2530296eea45bbb714/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-aa839f9848a1e25dd47494f010b0ee11/768/432/Image/Png/noFilter"
     },
     {
-      "id": "warz_pvp",
+      "id": "_my_anime_mine",
+      "name": "⛏️ My Anime Mine",
+      "placeId": "79389059854988",
+      "universeId": "10740316645",
+      "category": "Mining Simulator",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "⛏️ Your Anime Characters break rocks for ores. Level Up crew damage, roll OP Enchantments, auto mine & trading!",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-7e4719a3bd7b06775dc43bc30aa2b913/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-831892d76d78c59d59cfc5d732eab590/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "warzpvp_open_beta",
       "name": "WarZPVP OPEN BETA",
-      "placeId": "135187859974536",
+      "placeId": "135187059974536",
+      "universeId": "10763998990",
+      "category": "PVP & Combat",
       "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "Shooter / Survival PVP",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🎯 Silent Aim & FOV Circle Lock (ล็อกหัวทะลุกำแพง)",
-        "👁️ Universal Player Highlight ESP (แสดงระยะและชื่อ)",
-        "📦 Item & Gun Box ESP Chams",
-        "⚡ No Recoil & Instant Reload",
-        "🛡️ Safe Noclip & High Jump Bypass"
+        "🎯 เลือกผู้รอดชีวิต แล้วลงสนามในมุมมองบุคคลที่หนึ่ง! Silent Aim, Instant Reload, No Recoil & Item ESP.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "[Right Click] ล็อกเป้า / [X] สลับ ESP",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-49e3ef288d98c94fd78d4ba8e1000a91/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-fd49cbb405d8685bf676d8998c8932dc/768/432/Image/Png/noFilter"
     },
     {
-      "id": "dungeon_quest_reborn",
-      "name": "HALLOWEEN Dungeon Quest Reborn",
+      "id": "_halloween_dungeon_quest_rebor",
+      "name": "🎃 HALLOWEEN 🎃 Dungeon Quest Reborn",
       "placeId": "77649408247578",
+      "universeId": "9931749389",
+      "category": "Dungeon & RPG",
       "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "Dungeon Crawler",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "⚔️ Instant Kill Aura (ฟันม็อบรอบตัว 45 สตัด)",
-        "🚪 Auto Clear Rooms & Dungeon Auto-Walk",
-        "🎁 Auto Open Legendary Chests & Collect Gear",
-        "🛡️ Godmode Protection & Ability Spam",
-        "💨 Speed Hack (ปรับความเร็วเดินได้สูงสุด 120)"
+        "Dungeon Quest Reborn brings back the classic dungeon crawl! Auto Farm Nightmare, God Mode & Instant Boss Loot.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "[G] Kill Aura / Stop Script ได้ตลอดเวลา",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-d13343c88123bc91d4bc01c3fb7afbeb/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-70c1d4c8beaf4aa7f463b9556abfe4c9/768/432/Image/Png/noFilter"
     },
     {
       "id": "blade_ball",
       "name": "Blade Ball",
       "placeId": "13772394625",
+      "universeId": "4777817887",
+      "category": "PVP & Combat",
       "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "Action Combat",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "⚡ Autonomous Auto Parry (ตีลูกบอลกลับเป๊ะ 100%)",
-        "🎯 Curve Ball Prediction & Ping Compensator",
-        "👁️ Ball Visualizer & Speed Tracker",
-        "🚀 Auto Ability Trigger (Dash/Forcefield)",
-        "🏆 Auto Win Stand (หลบหลุมและมุมอับ)"
+        "⚡ In this game of focus, timing, and strategy. AI Predictive Auto Parry, Curve Ball Catch & Anti-Lock.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "Auto Parry ทำงานอัตโนมัติไม่ต้องกด",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-38e75c9ff1051ad6ca868f39be2cf095/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-be150ba07c74cd57deb31791c2675323/768/432/Image/Png/noFilter"
     },
     {
-      "id": "loot_to_forge",
+      "id": "_boss_1_loot_to_forge",
       "name": "[BOSS]+1 Loot To Forge",
-      "placeId": "118895555815549",
+      "placeId": "118805555015549",
+      "universeId": "10684750879",
+      "category": "Action & RPG",
       "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "Idle / Forge Simulator",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🔨 Auto Forge All Anvils (ตีบวกดาบและเกราะออโต้)",
-        "👹 Auto Defeat Bosses & Zone Boss Magnet",
-        "📦 Fast Item Pickup & Auto Sell Commons",
-        "✨ Rebirth Automation & Multiplier Stack",
-        "🛡️ Anti-AFK Kick Prevention"
+        "Welcome to +1 Loot To Forge ⚔️ Click to gain power, defeat mega bosses and craft mythical god swords.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "Toggle บนหน้า Hub / ปรับระดับได้",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-933c3d4689bb61d220d3d862135f8637/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-82066d8599c04685dafed829784abc81/768/432/Image/Png/noFilter"
     },
     {
-      "id": "anime_dice",
-      "name": "Anime Dice",
-      "placeId": "16281300371",
+      "id": "_starrk_dungeon_lootr",
+      "name": "[ 🐺 STARRK] Dungeon Lootr",
+      "placeId": "106484206883664",
+      "universeId": "9656201728",
+      "category": "Dungeon & RPG",
       "tier": "VIP",
-      "zones": "3 โซน",
-      "category": "RNG / Anime Roll",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "อัปเดตประสิทธิภาพและปรับปรุงโค้ดภายใน",
-        "🎲 Infinite Fast Auto-Roll (ทอยเต๋าแบบไร้ดีเลย์)",
-        "✨ Auto Store Secret / Mythic Auras",
-        "💰 Auto Farm Coins & Zone Quest Completion",
-        "⚡ Luck Potion Auto-Consume & Crafting Hub",
-        "🤖 Full AI Autonomous Reasoner Integration"
+        "⚔️ Hack & Slash Dungeon ARPG ⚔️ Play as epic champions. Auto Mob Kill, Speed Dungeon Clear & Godmode.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "[H] ทอยด่วน / เมนู AI สั่งการได้",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-534c0c6f261c1fcaa1cadd0e30a1a684/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-dc8d4ec5337145ba2f463b7d8242ecb5/768/432/Image/Png/noFilter"
     },
     {
-      "id": "blox_fruits",
-      "name": "Blox Fruits",
-      "placeId": "2753915549",
-      "tier": "VIP",
-      "zones": "3 ทะเล (Sea 1-3)",
-      "category": "Anime MMORPG",
-      "features": [
-        "⚔️ Auto Farm Level (Sea 1, 2, 3) + รับเควสอัตโนมัติ",
-        "🍎 Devil Fruit Sniper & Auto Store",
-        "🌊 Sea Event Farm (Leviathan, Terrorshark)",
-        "🗡️ Master Swords & Melee Auto Unlock (Cursed Dual Katana, Godhuman)",
-        "⚡ Fast Attack & Hitbox Extender (ไร้ดีเลย์หมัด/ดาบ)"
-      ],
-      "hotkey": "UI Touch สำหรับมือถือ & PC Keybinds",
-      "status": "🟢 ONLINE (V9.2)"
-    },
-    {
-      "id": "dungeon_lootr",
-      "name": "[STARRK] Dungeon Lootr",
-      "placeId": "186484286883664",
-      "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "RPG / Looting",
-      "features": [
-        "🗡️ Starrk Auto Raid & Dungeon Clear",
-        "🎒 Auto Pickup Legendary Weapons & Relics",
-        "⚡ Attack Speed Multiplier & Godmode Noclip",
-        "🚪 Stage Auto Advance & Boss Auto Lock"
-      ],
-      "hotkey": "[K] เริ่มลูปฟาร์ม / [L] คืนค่าปกติ",
-      "status": "🟢 ONLINE (V9.2)"
-    },
-    {
-      "id": "ride_a_pet",
-      "name": "[EVENT] Ride A Pet",
+      "id": "_event_ride_a_pet",
+      "name": "[ 🎃 EVENT] Ride A Pet",
       "placeId": "124216119978534",
+      "universeId": "10035204815",
+      "category": "Action & RPG",
       "tier": "VIP",
-      "zones": "0 โซน",
-      "category": "Simulator / Racing",
+      "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🐾 Auto Train Speed & Pet Weight Lift",
-        "🏁 Auto Race Win (วาร์ปเข้าเส้นชัย 0.1s)",
-        "🥚 Auto Hatch Limited Event Eggs",
-        "💎 Rebirth & Multiplier Auto Trigger"
+        "👻 Ride A Pet! How to Play: 🥚 Find Eggs, Speed Boost Racing & Auto Hatch Legendary Mounts.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
       ],
-      "hotkey": "เมนูเปิด-ปิดสวิตช์ข้างจอ",
-      "status": "🟢 ONLINE (V9.2)"
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-aa025ba8c5065f685faf7206b6ad4a1c/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-3ffbd41c5b51c95ae19350431588608e/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "fisch_birthday_",
+      "name": "Fisch 🎂 [BIRTHDAY]",
+      "placeId": "16732694052",
+      "universeId": "5750914919",
+      "category": "Adventure & Kaitun",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "🦈 Welcome to Fisch 🦈 Dive into Fisch with Instant Catch, Auto Reel, Infinite Bait & Mythic Fish Radar.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-53aa8e02a9fdac8deaa0f697a2aaad9a/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-a2846a75df26a929cc2f526aecdfaef9/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "blox_fruits_kaitun_",
+      "name": "Blox Fruits (KAITUN)",
+      "placeId": "2753915549",
+      "universeId": "994732206",
+      "category": "Adventure & Kaitun",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "OUT NOW: 🧲 Magnet + 🌴 Sea 1 + Mythic Weapons Auto Farm! Kaitun Level 1-2600, God Human, CDK & Mirage Sniper.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-774ec14539b264f85fdb6e8a34dfa344/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-09e621f1df2e404a391adf389d2bea47/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_greedy_growers_",
+      "name": "[ ✨ ] Greedy Growers 🌱",
+      "placeId": "74102906764176",
+      "universeId": "10440833423",
+      "category": "Tycoon & Simulator",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "Plant seeds and watch your trees grow into giant money makers! Auto Plant, Auto Water & Fast Golden Crop Harvest.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-5cf06bf3a4b241bbeba1e701fca5d106/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-66c657e006bace58137f8cb74240bd00/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "steal_an_anime_egg_",
+      "name": "Steal an Anime Egg!",
+      "placeId": "76377501906469",
+      "universeId": "10747748563",
+      "category": "Adventure & Kaitun",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "⚔️ Steal An Anime Egg! Fast Speed Grab, Auto Collect Super Eggs & Anti-Ragdoll Shield.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-49cb18f6f36e3b07d0cf308e9095d2d0/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-911cb7df3a74ea4704efc3f834130bb3/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "grow_a_chicken_fighter_",
+      "name": "Grow a Chicken Fighter!",
+      "placeId": "94640181989498",
+      "universeId": "10338952197",
+      "category": "Tycoon & Simulator",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "🐓 Welcome to Grow a Chicken Fighter! Auto Feed, Fast Train, Arena God Mode & Mythic Chicken Breed.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-0b469c2a4bfe42b3fd73fae278cd54a9/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-8403e52cfc77a0fb4df895e64943deab/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "roll_a_gnome",
+      "name": "Roll A Gnome",
+      "placeId": "117539213094671",
+      "universeId": "10514280922",
+      "category": "RNG & Card Collection",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "☘️ Build the ULTIMATE Garden! IT GROWS WITH GNOMES! Auto Roll 100x Speed, Rare Gnome Tracker & Instant Sell.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-4cf2240ff04c75267a735877079f7575/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-21cf2f6359504efcbf97aacd0269c40a/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "99_nights_in_the_forest",
+      "name": "99 Nights in the Forest",
+      "placeId": "79546208627805",
+      "universeId": "7326934954",
+      "category": "Action & RPG",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "Build a camp with friends. Something lurks in the dark. Auto Chop Wood, Monster Freeze, Full ESP & God Mode.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-c162b715402c51fd948c6686d668456d/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-ee923b1e9ac5564624ee9c484006166c/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_gakuran",
+      "name": "(学乱) Gakuran",
+      "placeId": "128736949265057",
+      "universeId": "9199655655",
+      "category": "Action & RPG",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "May, 2007 - Japan An INTENDED Slice-of-life High School combat game. Auto Parry, Infinite Stamina & Combat Combo.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-c29536873931baa603c4563dae422eba/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-0d625ab4bae83fdb51f3912cfa921f42/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_new_sniper_sniper_arena",
+      "name": "[🔥NEW SNIPER] Sniper Arena",
+      "placeId": "122446657157717",
+      "universeId": "9534705677",
+      "category": "PVP & Combat",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "Welcome to Sniper Arena — Fast-paced sniper battles! Silent Aim, Wallbang, Infinite Ammo & Target ESP.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-758de9ceefed6ff1a1592c5ebab598ce/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-41326a752aca93f2fd10aa7e8f5c911d/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "attack_on_titan_revolution",
+      "name": "Attack on Titan Revolution",
+      "placeId": "13379208636",
+      "universeId": "4658598196",
+      "category": "Dungeon & RPG",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "NEW CODE at 1,450,000 LIKES! Defend humanity with advanced ODM gear. Auto Slay Titans, Infinite Gas & Nape Lock.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-b5b0d5438b8f70eca4dc9311ac541afc/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-d72c3cae696292e59f459d51dc79e17d/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_upd_anime_card_farm",
+      "name": "[UPD 🖊️ ] Anime Card Farm",
+      "placeId": "125039473548047",
+      "universeId": "10144587520",
+      "category": "RNG & Card Collection",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "💤 PACKS OPEN AND MONEY GENERATOR! Auto Buy Best Packs, Secret Card Sniper & Infinite Rebirth.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-5a49765296a161da3c0dec8ba35cf509/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-ddbb8f3b68bef5516e2b6365d0cd08c8/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_capybaras_vs_plants",
+      "name": "[ 🍁 ] Capybaras VS Plants",
+      "placeId": "104973076655377",
+      "universeId": "8841437826",
+      "category": "Tycoon & Simulator",
+      "tier": "VIP",
+      "hotkey": "RightShift / Mobile Button",
+      "features": [
+        "In Capybaras VS Plants, 🥚 Hatch CAPYBARAS! Auto Plant, Instant Sun Farm & Wave Auto-Skip.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-0fcbef8005f7014556d32c45120730b6/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-e5f7c3dd0543bc913e51ce36ee22a469/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "untitled_boxing_game",
+      "name": "Untitled Boxing Game",
+      "placeId": "13621938427",
+      "universeId": "4730278139",
+      "category": "PVP & Combat",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "🥊 Untitled Boxing Game! Master Auto Dodge, Auto Counter-Attack Punish, Humanized Footwork & Combat Radar.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-7ba60f5663e5223b3a00b6d7885b5392/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-103aa77f54bcddf2c7b0ba1026c8a44e/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "anime_zero_shadow_monarch_",
+      "name": "Anime Zero [SHADOW MONARCH]",
+      "placeId": "114574503491412",
+      "universeId": "10512942223",
+      "category": "Action & RPG",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "👑 Anime Zero is an immersive anime dungeon crawler. Shadow Extraction, Solo Raid & Instant Rank S Hunter.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-257fa143cd024ad1651d327f945cd9c7/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-e39619ef058d235e4250e59c8d3652c7/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "project_slayers_2",
+      "name": "Project Slayers 2",
+      "placeId": "16205713724",
+      "universeId": "5595353122",
+      "category": "Dungeon & RPG",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "📱 🎮 Mobile and Console users can edit their Aim Assist sensitivity in settings. Auto Breathing, Infinite Stamina & God Mode.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-8f6e03e81105f9c8f310b91758896236/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-be58ae399c4afe62c9626060ddaf6c91/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_anime_dice",
+      "name": "[🎃] Anime Dice",
+      "placeId": "113290951185459",
+      "universeId": "10708913337",
+      "category": "RNG & Card Collection",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "👋 Welcome to Anime Dice! 💵 MONEY, Auto Roll, Max Luck Multiplier & Instant Secret Collector.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-6eadd1cbe12feeb513bb90ce46070a07/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-0f94a2d3d0b8991744905f6686bf2bc8/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "iron_soul_dungeon",
+      "name": "Iron Soul: Dungeon",
+      "placeId": "117533937949084",
+      "universeId": "9910245722",
+      "category": "Dungeon & RPG",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "Dragons and men fought side by side. Auto Floor Clear, Mob Vacuum, Boss Instant Kill & Infinite Souls.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-9f3937d807b20e7fa39828573229f4f0/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-6624e54164ae1e6a970c6ba71fb6776a/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_anime_expeditions_ae_",
+      "name": "[ 🗡️ ] Anime Expeditions (AE)",
+      "placeId": "84515722934860",
+      "universeId": "7613921865",
+      "category": "Action & RPG",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "Welcome to Anime Expeditions! 🕐 ★ Auto Dungeon Run, Kill Aura, Infinite Skills & Auto Upgrades.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-0f226357e694c0ddbde19bc00ed16d18/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-f89a563023e8deaa03b122b1b4bb8a91/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "steal_an_egg_",
+      "name": "Steal An Egg (ขโมยไข่)",
+      "placeId": "107778070777162",
+      "universeId": "10563114921",
+      "category": "Adventure & Kaitun",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "🥚 Welcome to Steal An Egg! Hatch legendary mythical pets. Auto Grab, Speed Boost & Instant Basket Teleport.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-02351c6dea8f18de5c6fbe3311834287/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-875b2a6dc156ce6dd64eb637e73238ce/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "murder_mystery_2_mm2_",
+      "name": "Murder Mystery 2 (MM2)",
+      "placeId": "142823291",
+      "universeId": "66654135",
+      "category": "Action & RPG",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "Can you solve the Mystery and survive each round? Full Murderer/Sheriff ESP, Auto Grab Gun, Coin Farm & Silent Aim.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-ab1484ff8063476d413da09dd25df93f/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-f483597f5ce44b2617413c11c7425802/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_mine_a_mountain",
+      "name": "[ ▲ ] Mine a Mountain",
+      "placeId": "125927821145949",
+      "universeId": "10187294555",
+      "category": "Mining Simulator",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "▲ Climb the mountain ⛏️ Mine rare crystals, fast auto-digging, infinite stamina & auto-ascend.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-6da5af2dceaa4c699437b605e04d0229/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-c815c2180f1a7227b8a10fe236650017/768/432/Image/Png/noFilter"
+    },
+    {
+      "id": "_qol_roll_anime_to_fight_",
+      "name": "[QOL] Roll Anime to Fight!",
+      "placeId": "107653945083776",
+      "universeId": "10298144467",
+      "category": "RNG & Card Collection",
+      "tier": "VVIP",
+      "hotkey": "RightControl / Mobile Button",
+      "features": [
+        "🔥 Roll an anime to fight! ⚡ Roll for powerful heroes, auto-combat, endless dungeon raids, and mythical loot.",
+        "ระบบ Auto Farm / Kaitun 24/7",
+        "รองรับมือถือและคอมพิวเตอร์",
+        "Bypass Anti-Cheat & Anti-AFK"
+      ],
+      "imageUrl": "https://tr.rbxcdn.com/180DAY-c244d27b9e9ad36bff88bbf3944208f0/512/512/Image/Png/noFilter",
+      "coverUrl": "https://tr.rbxcdn.com/180DAY-6846bad16c319672d57af6f1a8520871/768/432/Image/Png/noFilter"
     }
-  ]
+  ],
+  "total": 31,
+  "lastSync": "2026-10-27T23:36:38.928Z"
 }

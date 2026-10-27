@@ -35,6 +35,83 @@ function saveMaps() {
 }
 loadMaps();
 
+// Auto-Sync All Games from payomboyzcreative.online API
+async function syncLiveGamesFromAPI() {
+    try {
+        console.log("📡 Syncing live games from https://payomboyzcreative.online/api/v1/games...");
+        const res = await fetch('https://payomboyzcreative.online/api/v1/games');
+        if (!res.ok) return;
+        const data = await res.json();
+        if (!data.success || !Array.isArray(data.games)) return;
+
+        const maps = data.games.map((g, index) => {
+            const rawName = g.name || `Game ${index + 1}`;
+            const cleanId = rawName
+                .toLowerCase()
+                .replace(/[^a-z0-9]/g, '_')
+                .replace(/_+/g, '_')
+                .slice(0, 30);
+
+            let features = [];
+            if (g.script_source_value) {
+                const src = g.script_source_value;
+                const featureMatches = src.match(/--\s*(?:\d+\.|\*|-)?\s*([^\r\n]{10,80})/g);
+                if (featureMatches) {
+                    const cleaned = featureMatches
+                        .map(f => f.replace(/^--\s*(?:\d+\.|\*|-)?\s*/, '').trim())
+                        .filter(f => !f.startsWith('==') && !f.startsWith('Target') && !f.startsWith('UniverseId') && !f.startsWith('PlaceId') && !f.startsWith('Features') && !f.includes('Loaded Successfully'))
+                        .slice(0, 7);
+                    if (cleaned.length > 0) features = cleaned;
+                }
+            }
+
+            if (features.length === 0) {
+                if (g.description && g.description.length > 10) {
+                    features = [g.description, "ระบบ Auto Farm / Kaitun 24/7", "รองรับมือถือและคอมพิวเตอร์", "Bypass Anti-Cheat & Anti-AFK"];
+                } else {
+                    features = [
+                        "ระบบ Master Auto-Farm / Kaitun 24/7",
+                        "Auto Quest & Event Rewards",
+                        "Fast Attack & Kill Aura Bypass",
+                        "ระบบ Auto Reconnect ป้องกันหลุด 20 นาที",
+                        "UI PayomboyZ ปรับแต่งง่าย ไม่กระตุก"
+                    ];
+                }
+            }
+
+            const tier = (g.package || g.tier || "VIP").includes("VVIP") ? "VVIP" : "VIP";
+
+            let category = "Action & RPG";
+            const lower = rawName.toLowerCase();
+            if (lower.includes('mine') || lower.includes('mountain')) category = "Mining Simulator";
+            else if (lower.includes('dice') || lower.includes('roll') || lower.includes('card')) category = "RNG & Card Collection";
+            else if (lower.includes('ant') || lower.includes('grow') || lower.includes('chicken') || lower.includes('garden')) category = "Tycoon & Simulator";
+            else if (lower.includes('ball') || lower.includes('boxing') || lower.includes('pvp') || lower.includes('warz') || lower.includes('sniper')) category = "PVP & Combat";
+            else if (lower.includes('dungeon') || lower.includes('quest') || lower.includes('slayer') || lower.includes('aot') || lower.includes('titan')) category = "Dungeon & RPG";
+            else if (lower.includes('blox') || lower.includes('fisch') || lower.includes('egg') || lower.includes('hunting')) category = "Adventure & Kaitun";
+
+            return {
+                id: cleanId || `game_${index}`,
+                name: rawName,
+                placeId: String(g.place_id || "0"),
+                universeId: String(g.universe_id || ""),
+                category: category,
+                tier: tier,
+                hotkey: tier === "VVIP" ? "RightControl / Mobile Button" : "RightShift / Mobile Button",
+                features: features,
+                imageUrl: g.image_url || null,
+                coverUrl: g.cover_url || null
+            };
+        });
+
+        mapsDatabase = { maps, total: maps.length, lastSync: new Date().toISOString() };
+        saveMaps();
+        console.log(`✅ Synced ${maps.length} live games from API into mapsDatabase.`);
+    } catch (err) {
+        console.error("[Live Games Sync Error]", err.message);
+    }
+}
+
 // In-memory File Hashes & Cache
 const fileHashMap = new Map();
 const previousCodeMap = new Map();
@@ -82,7 +159,7 @@ let pinnedCatalogMessageId = null;
 async function syncHubDirectory(channel) {
     if (!channel) return;
     loadMaps();
-    const { embed, row } = buildHubCatalogEmbed(client, mapsDatabase.maps);
+    const { embed, rows } = buildHubCatalogEmbed(client, mapsDatabase.maps);
 
     // Look for previous bot message to edit instead of spamming
     try {
@@ -90,13 +167,13 @@ async function syncHubDirectory(channel) {
         const existingMsg = messages.find(m => m.author.id === client.user.id && m.embeds.length > 0 && m.embeds[0].title?.includes('PAYOMBØYZ SCRIPT INTELLIGENCE'));
 
         if (existingMsg) {
-            await existingMsg.edit({ embeds: [embed], components: [row] });
+            await existingMsg.edit({ embeds: [embed], components: rows });
             pinnedCatalogMessageId = existingMsg.id;
-            console.log("🔄 Updated existing Directory Embed in channel.");
+            console.log("🔄 Updated existing Directory Embed with all 31 maps in channel.");
         } else {
-            const newMsg = await channel.send({ embeds: [embed], components: [row] });
+            const newMsg = await channel.send({ embeds: [embed], components: rows });
             pinnedCatalogMessageId = newMsg.id;
-            console.log("✨ Posted fresh Directory Embed in channel.");
+            console.log("✨ Posted fresh Directory Embed with all 31 maps in channel.");
         }
     } catch (err) {
         console.error("[Sync Channel Error]", err);
@@ -119,6 +196,14 @@ client.once('ready', async () => {
     } else {
         guilds.forEach(g => console.log(`   - ${g.name} (ID: ${g.id})`));
     }
+
+    // Sync live 31 games from website on startup
+    await syncLiveGamesFromAPI();
+
+    // Auto-refresh every 30 minutes
+    setInterval(async () => {
+        await syncLiveGamesFromAPI();
+    }, 30 * 60 * 1000);
 
     try {
         const channel = await client.channels.fetch(CHANNEL_ID);
@@ -231,7 +316,7 @@ client.on('messageCreate', async (message) => {
 // Dropdown Interaction Handler (View Map Features)
 client.on('interactionCreate', async (interaction) => {
     if (interaction.isStringSelectMenu()) {
-        if (interaction.customId === 'select_game_map') {
+        if (interaction.customId.startsWith('select_game_map')) {
             const selectedId = interaction.values[0];
             loadMaps();
             const mapData = mapsDatabase.maps.find(m => m.id === selectedId || m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').includes(selectedId));

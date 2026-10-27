@@ -32,22 +32,40 @@ function buildHubCatalogEmbed(client, mapsList) {
         .setFooter({ text: "PAYOMBØYZ SCRIPT HUB • AUTOMATED BY CYBER-AI", iconURL: client.user.displayAvatarURL() })
         .setTimestamp();
 
-    // สร้าง Dropdown Menu สูงสุด 25 รายการแรกต่อ 1 แถว (Discord Limit)
-    const options = mapsList.slice(0, 25).map(m => ({
-        label: m.name.slice(0, 50),
-        description: `Place ID: ${m.placeId || 'Universal'} | ระดับ: ${m.tier}`,
-        value: m.id || m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 50),
-        emoji: m.tier === 'VVIP' ? '👑' : '⚡'
-    }));
+    const vipMaps = mapsList.filter(m => m.tier !== 'VVIP');
+    const vvipMaps = mapsList.filter(m => m.tier === 'VVIP');
 
-    const selectMenu = new StringSelectMenuBuilder()
-        .setCustomId('select_game_map')
-        .setPlaceholder('🎮 เลือกเกมที่ต้องการดูรายละเอียดฟังก์ชั่น...')
-        .addOptions(options);
+    const rows = [];
 
-    const row = new ActionRowBuilder().addComponents(selectMenu);
+    if (vipMaps.length > 0) {
+        const vipOptions = vipMaps.slice(0, 25).map(m => ({
+            label: m.name.slice(0, 50),
+            description: `Place ID: ${m.placeId || 'Universal'} | ${m.category || 'VIP'}`.slice(0, 100),
+            value: m.id || m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 50),
+            emoji: '⚡'
+        }));
+        const vipMenu = new StringSelectMenuBuilder()
+            .setCustomId('select_game_map_vip')
+            .setPlaceholder(`⚡ [ VIP ] เลือกดูฟังก์ชั่นสคริปต์ VIP (${vipMaps.length} แมพ)...`)
+            .addOptions(vipOptions);
+        rows.push(new ActionRowBuilder().addComponents(vipMenu));
+    }
 
-    return { embed, row };
+    if (vvipMaps.length > 0) {
+        const vvipOptions = vvipMaps.slice(0, 25).map(m => ({
+            label: m.name.slice(0, 50),
+            description: `Place ID: ${m.placeId || 'Universal'} | ${m.category || 'VVIP'}`.slice(0, 100),
+            value: m.id || m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').slice(0, 50),
+            emoji: '👑'
+        }));
+        const vvipMenu = new StringSelectMenuBuilder()
+            .setCustomId('select_game_map_vvip')
+            .setPlaceholder(`👑 [ VVIP ] เลือกดูฟังก์ชั่นสคริปต์ VVIP (${vvipMaps.length} แมพ)...`)
+            .addOptions(vvipOptions);
+        rows.push(new ActionRowBuilder().addComponents(vvipMenu));
+    }
+
+    return { embed, rows, row: rows[0] };
 }
 
 /**
