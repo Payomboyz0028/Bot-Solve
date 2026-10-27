@@ -1,0 +1,190 @@
+{
+  "maps": [
+    {
+      "id": "hunting_together",
+      "name": "[HALLOWEEN] Hunting Together",
+      "placeId": "117483759937632",
+      "tier": "VIP",
+      "zones": "4 โซน",
+      "category": "Action RPG / Event",
+      "features": [
+        "🎃 Auto Halloween Boss Farm & Mob Magnet",
+        "⚡ Safe Hover Combat (ระยะ 5.5 สตัดเหนือหัวม็อบ)",
+        "🎒 Auto Loot Candy & Event Tokens",
+        "🛡️ Anti-Cheat Bypass (Bypass Velocity & CFrame Kick)",
+        "🏃 WalkSpeed Booster & Fly Touch Controller"
+      ],
+      "hotkey": "[E] บิน / UI เปิด-ปิดอัตโนมัติ",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "build_an_ant",
+      "name": "Build An Ant Empire",
+      "placeId": "78498532994387",
+      "tier": "VVIP",
+      "zones": "1 โซน",
+      "category": "Tycoon & Simulator",
+      "features": [
+        "🐜 Infinite Sugar / Food Auto-Harvest",
+        "👑 Instant Queen Upgrade & Worker Ant Spawner",
+        "⚡ Zone Teleport & Instant Base Delivery",
+        "🪙 Auto Collect Coins & Egg Incubator Fast Hatch",
+        "🛡️ Noclip Walkthrough & Anti-Lag Optimization"
+      ],
+      "hotkey": "GUI ออโต้ / เมนูคลิกข้างจอ",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "my_anime_mine",
+      "name": "My Anime Mine",
+      "placeId": "79389859854988",
+      "tier": "VVIP",
+      "zones": "1 โซน",
+      "category": "Mining & Gathering",
+      "features": [
+        "⛏️ Auto Mine All Ores (เจาะแร่ทุกชั้นแบบออโต้)",
+        "💎 Instant Gem & Chest Magnet Collector",
+        "⚡ Pickaxe Fast Swing & Hitbox Multiplier",
+        "🎒 Auto Sell Bag When Full (วาร์ปขายแร่อัตโนมัติ)",
+        "🚀 Fly Mode & Free Cam Visualizer"
+      ],
+      "hotkey": "[F] ขุดรัว / ปุ่มลัดบนมือถือ",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "warz_pvp",
+      "name": "WarZPVP OPEN BETA",
+      "placeId": "135187859974536",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "Shooter / Survival PVP",
+      "features": [
+        "🎯 Silent Aim & FOV Circle Lock (ล็อกหัวทะลุกำแพง)",
+        "👁️ Universal Player Highlight ESP (แสดงระยะและชื่อ)",
+        "📦 Item & Gun Box ESP Chams",
+        "⚡ No Recoil & Instant Reload",
+        "🛡️ Safe Noclip & High Jump Bypass"
+      ],
+      "hotkey": "[Right Click] ล็อกเป้า / [X] สลับ ESP",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "dungeon_quest_reborn",
+      "name": "HALLOWEEN Dungeon Quest Reborn",
+      "placeId": "77649408247578",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "Dungeon Crawler",
+      "features": [
+        "⚔️ Instant Kill Aura (ฟันม็อบรอบตัว 45 สตัด)",
+        "🚪 Auto Clear Rooms & Dungeon Auto-Walk",
+        "🎁 Auto Open Legendary Chests & Collect Gear",
+        "🛡️ Godmode Protection & Ability Spam",
+        "💨 Speed Hack (ปรับความเร็วเดินได้สูงสุด 120)"
+      ],
+      "hotkey": "[G] Kill Aura / Stop Script ได้ตลอดเวลา",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "blade_ball",
+      "name": "Blade Ball",
+      "placeId": "13772394625",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "Action Combat",
+      "features": [
+        "⚡ Autonomous Auto Parry (ตีลูกบอลกลับเป๊ะ 100%)",
+        "🎯 Curve Ball Prediction & Ping Compensator",
+        "👁️ Ball Visualizer & Speed Tracker",
+        "🚀 Auto Ability Trigger (Dash/Forcefield)",
+        "🏆 Auto Win Stand (หลบหลุมและมุมอับ)"
+      ],
+      "hotkey": "Auto Parry ทำงานอัตโนมัติไม่ต้องกด",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "loot_to_forge",
+      "name": "[BOSS]+1 Loot To Forge",
+      "placeId": "118895555815549",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "Idle / Forge Simulator",
+      "features": [
+        "🔨 Auto Forge All Anvils (ตีบวกดาบและเกราะออโต้)",
+        "👹 Auto Defeat Bosses & Zone Boss Magnet",
+        "📦 Fast Item Pickup & Auto Sell Commons",
+        "✨ Rebirth Automation & Multiplier Stack",
+        "🛡️ Anti-AFK Kick Prevention"
+      ],
+      "hotkey": "Toggle บนหน้า Hub / ปรับระดับได้",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "anime_dice",
+      "name": "Anime Dice",
+      "placeId": "16281300371",
+      "tier": "VIP",
+      "zones": "3 โซน",
+      "category": "RNG / Anime Roll",
+      "features": [
+        "อัปเดตประสิทธิภาพและปรับปรุงโค้ดภายใน",
+        "🎲 Infinite Fast Auto-Roll (ทอยเต๋าแบบไร้ดีเลย์)",
+        "✨ Auto Store Secret / Mythic Auras",
+        "💰 Auto Farm Coins & Zone Quest Completion",
+        "⚡ Luck Potion Auto-Consume & Crafting Hub",
+        "🤖 Full AI Autonomous Reasoner Integration"
+      ],
+      "hotkey": "[H] ทอยด่วน / เมนู AI สั่งการได้",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "blox_fruits",
+      "name": "Blox Fruits",
+      "placeId": "2753915549",
+      "tier": "VIP",
+      "zones": "3 ทะเล (Sea 1-3)",
+      "category": "Anime MMORPG",
+      "features": [
+        "⚔️ Auto Farm Level (Sea 1, 2, 3) + รับเควสอัตโนมัติ",
+        "🍎 Devil Fruit Sniper & Auto Store",
+        "🌊 Sea Event Farm (Leviathan, Terrorshark)",
+        "🗡️ Master Swords & Melee Auto Unlock (Cursed Dual Katana, Godhuman)",
+        "⚡ Fast Attack & Hitbox Extender (ไร้ดีเลย์หมัด/ดาบ)"
+      ],
+      "hotkey": "UI Touch สำหรับมือถือ & PC Keybinds",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "dungeon_lootr",
+      "name": "[STARRK] Dungeon Lootr",
+      "placeId": "186484286883664",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "RPG / Looting",
+      "features": [
+        "🗡️ Starrk Auto Raid & Dungeon Clear",
+        "🎒 Auto Pickup Legendary Weapons & Relics",
+        "⚡ Attack Speed Multiplier & Godmode Noclip",
+        "🚪 Stage Auto Advance & Boss Auto Lock"
+      ],
+      "hotkey": "[K] เริ่มลูปฟาร์ม / [L] คืนค่าปกติ",
+      "status": "🟢 ONLINE (V9.2)"
+    },
+    {
+      "id": "ride_a_pet",
+      "name": "[EVENT] Ride A Pet",
+      "placeId": "124216119978534",
+      "tier": "VIP",
+      "zones": "0 โซน",
+      "category": "Simulator / Racing",
+      "features": [
+        "🐾 Auto Train Speed & Pet Weight Lift",
+        "🏁 Auto Race Win (วาร์ปเข้าเส้นชัย 0.1s)",
+        "🥚 Auto Hatch Limited Event Eggs",
+        "💎 Rebirth & Multiplier Auto Trigger"
+      ],
+      "hotkey": "เมนูเปิด-ปิดสวิตช์ข้างจอ",
+      "status": "🟢 ONLINE (V9.2)"
+    }
+  ]
+}
