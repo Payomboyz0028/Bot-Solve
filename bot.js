@@ -317,17 +317,31 @@ client.on('messageCreate', async (message) => {
 client.on('interactionCreate', async (interaction) => {
     if (interaction.isStringSelectMenu()) {
         if (interaction.customId.startsWith('select_game_map')) {
-            const selectedId = interaction.values[0];
-            loadMaps();
-            const mapData = mapsDatabase.maps.find(m => m.id === selectedId || m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').includes(selectedId));
+            try {
+                // Instantly acknowledge the interaction to prevent Discord 3-second timeout!
+                await interaction.deferReply({ ephemeral: true });
 
-            if (!mapData) {
-                return interaction.reply({ content: "❌ ไม่พบข้อมูลสคริปต์ของแมพนี้ในฐานข้อมูล", ephemeral: true });
+                const selectedId = interaction.values[0];
+                loadMaps();
+                const mapData = mapsDatabase.maps.find(m => 
+                    m.id === selectedId || 
+                    m.name.toLowerCase().replace(/[^a-z0-9]/g, '_').includes(selectedId) ||
+                    selectedId.includes(m.id) ||
+                    (m.placeId && m.placeId === selectedId)
+                );
+
+                if (!mapData) {
+                    return interaction.editReply({ content: "❌ ไม่พบข้อมูลสคริปต์ของแมพนี้ในฐานข้อมูล" });
+                }
+
+                const detailsEmbed = buildMapDetailsEmbed(client, mapData);
+                return interaction.editReply({ embeds: [detailsEmbed] });
+            } catch (err) {
+                console.error("[Select Menu Interaction Error]", err);
+                if (interaction.deferred) {
+                    await interaction.editReply({ content: "⚠️ เกิดข้อผิดพลาดในการดึงข้อมูล กรุณาลองใหม่อีกครั้ง" }).catch(() => {});
+                }
             }
-
-            const detailsEmbed = buildMapDetailsEmbed(client, mapData);
-            // Reply ephemerally so the channel stays 100% clean and non-cluttered!
-            return interaction.reply({ embeds: [detailsEmbed], ephemeral: true });
         }
     }
 
