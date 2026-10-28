@@ -8,6 +8,7 @@ require('dotenv').config({ path: path.join(__dirname, '.env') });
 
 const { buildHubCatalogEmbed, buildMapDetailsEmbed, buildUpdateAlertEmbed } = require('./embedBuilder');
 const { analyzeUpdateDiff, analyzeSingleScript, answerScriptQuestion } = require('./geminiAnalyzer');
+const { startKeepAlivePinger } = require('./keepAlivePinger');
 
 // Configuration
 const TOKEN = process.env.DISCORD_TOKEN;
@@ -524,17 +525,28 @@ process.on('uncaughtException', (err) => {
     console.error('Uncaught Exception thrown:', err);
 });
 
-// Optional Lightweight HTTP Server for Cloud Hosting Health Checks (Render / Koyeb)
+// Lightweight HTTP Server & Anti-Sleep Heartbeat for Cloud Hosting 24/7 (Render / Koyeb)
 const PORT = process.env.PORT || 3000;
 try {
-    http.createServer((req, res) => {
-        res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-        res.end('PayomboyZ Bot is Online & Watching Scripts.');
-    }).listen(PORT, () => {
-        console.log(`🌐 Cloud Health Check Server running on port ${PORT}`);
+    const server = http.createServer((req, res) => {
+        res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+        res.end(JSON.stringify({
+            status: 'ONLINE',
+            service: 'PayomboyZ Script Intelligence Bot',
+            botTag: client.user ? client.user.tag : 'Connecting...',
+            uptimeSeconds: Math.floor(process.uptime()),
+            totalMaps: (mapsDatabase && mapsDatabase.maps) ? mapsDatabase.maps.length : 31,
+            serverTime: new Date().toISOString()
+        }, null, 2));
+    });
+    server.listen(PORT, () => {
+        console.log(`🌐 Cloud Health Check & Keep-Alive Server listening on port ${PORT}`);
+        // Activate anti-sleep keep-alive pinger loop
+        startKeepAlivePinger();
     });
 } catch (e) {
     // Port might be in use locally; non-fatal
+    startKeepAlivePinger();
 }
 
 // Login
