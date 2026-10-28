@@ -517,6 +517,22 @@ async function registerSlashCommands() {
     }
 }
 
+// In-memory log buffer for cloud observability
+const recentLogs = [];
+const originalLog = console.log;
+const originalError = console.error;
+const originalWarn = console.warn;
+function pushLog(type, args) {
+    const msg = `[${new Date().toISOString()}] [${type}] ` + args.map(a => typeof a === 'object' ? JSON.stringify(a) : String(a)).join(' ');
+    recentLogs.push(msg);
+    if (recentLogs.length > 80) recentLogs.shift();
+}
+console.log = (...args) => { pushLog('INFO', args); originalLog.apply(console, args); };
+console.error = (...args) => { pushLog('ERROR', args); originalError.apply(console, args); };
+console.warn = (...args) => { pushLog('WARN', args); originalWarn.apply(console, args); };
+
+let botLoginError = null;
+
 // Error guards to ensure 24/7 uptime
 process.on('unhandledRejection', (reason, promise) => {
     console.error('Unhandled Rejection at:', promise, 'reason:', reason);
@@ -529,11 +545,17 @@ process.on('uncaughtException', (err) => {
 const PORT = process.env.PORT || 3000;
 try {
     const server = http.createServer((req, res) => {
+        if (req.url === '/logs') {
+            res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+            return res.end(recentLogs.join('\n'));
+        }
         res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
         res.end(JSON.stringify({
             status: 'ONLINE',
             service: 'PayomboyZ Script Intelligence Bot',
             botTag: client.user ? client.user.tag : 'Connecting...',
+            gatewayStatus: client.ws ? client.ws.status : 'UNKNOWN',
+            loginError: botLoginError,
             uptimeSeconds: Math.floor(process.uptime()),
             totalMaps: (mapsDatabase && mapsDatabase.maps) ? mapsDatabase.maps.length : 31,
             serverTime: new Date().toISOString()
@@ -554,5 +576,11 @@ if (!TOKEN || TOKEN === "YOUR_DISCORD_BOT_TOKEN_HERE") {
     console.log("\n⚠️ [DISCORD_TOKEN MISSING]");
     console.log("โปรดใส่ Discord Bot Token ของคุณในไฟล์ PayomboyZ-DiscordBot/.env เพื่อเริ่มทำงาน\n");
 } else {
-    client.login(TOKEN);
+    console.log("🔑 Authenticating with Discord Gateway...");
+    client.login(TOKEN).then(() => {
+        console.log("🔓 Discord client.login Promise resolved successfully.");
+    }).catch(err => {
+        botLoginError = err.message;
+        console.error("❌ Discord client.login failed:", err);
+    });
 }
