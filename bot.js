@@ -12,6 +12,7 @@ const { analyzeUpdateDiff, analyzeSingleScript, answerScriptQuestion } = require
 // Configuration
 const TOKEN = process.env.DISCORD_TOKEN;
 const CHANNEL_ID = process.env.DISCORD_CHANNEL_ID || "1564763903504818357";
+const UPDATE_CHANNEL_ID = process.env.DISCORD_UPDATE_CHANNEL_ID || "1549826425438077068";
 const DATA_FILE = path.join(__dirname, 'mapsData.json');
 const SCRIPTS_DIR = path.resolve(__dirname, '..'); // Watch parent workspace directory
 
@@ -155,11 +156,34 @@ const client = new Client({
 
 let pinnedCatalogMessageId = null;
 
+// Clean legacy alert messages from the main directory channel so it stays 100% spotless
+async function cleanOldAlertsFromDirectory(channel) {
+    try {
+        const messages = await channel.messages.fetch({ limit: 30 });
+        const alertsToDelete = messages.filter(m => 
+            m.author.id === client.user.id && 
+            m.embeds.length > 0 && 
+            m.embeds[0].title?.includes('SCRIPT UPDATED')
+        );
+        for (const [, msg] of alertsToDelete) {
+            await msg.delete().catch(() => {});
+        }
+        if (alertsToDelete.size > 0) {
+            console.log(`🧹 Purged ${alertsToDelete.size} legacy alert cards from #${channel.name}`);
+        }
+    } catch (e) {
+        console.warn("[Alert Cleanup Warning]", e.message);
+    }
+}
+
 // Deploy or Refresh Directory in Channel
 async function syncHubDirectory(channel) {
     if (!channel) return;
     loadMaps();
     const { embed, rows } = buildHubCatalogEmbed(client, mapsDatabase.maps);
+
+    // Keep channel clean
+    await cleanOldAlertsFromDirectory(channel);
 
     // Look for previous bot message to edit instead of spamming
     try {
@@ -440,15 +464,18 @@ function startScriptWatcher() {
                     saveMaps();
                 }
 
-                // Post Announcement to Discord Channel
-                const channel = await client.channels.fetch(CHANNEL_ID);
-                if (channel) {
+                // Post Announcement to the Dedicated Updates Channel (#〔📜〕・update-แจ้งอัพเดท)
+                const updateChannel = await client.channels.fetch(UPDATE_CHANNEL_ID).catch(() => null);
+                if (updateChannel) {
                     const alertEmbed = buildUpdateAlertEmbed(client, updateAnalysis);
-                    await channel.send({ embeds: [alertEmbed] });
-                    console.log(`✅ [Alert Posted] Successfully notified update for ${gameName} in #${channel.name}`);
+                    await updateChannel.send({ embeds: [alertEmbed] });
+                    console.log(`✅ [Alert Posted] Successfully notified update for ${gameName} in #${updateChannel.name}`);
+                }
 
-                    // Refresh directory message
-                    await syncHubDirectory(channel);
+                // Silently refresh directory message in the catalog channel (#〔🗃️〕・script-ฟังชั่นการทำงาน)
+                const dirChannel = await client.channels.fetch(CHANNEL_ID).catch(() => null);
+                if (dirChannel) {
+                    await syncHubDirectory(dirChannel);
                 }
             }
         } catch (err) {
