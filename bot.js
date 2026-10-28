@@ -1,3 +1,8 @@
+const dns = require('dns');
+if (dns.setDefaultResultOrder) {
+    dns.setDefaultResultOrder('ipv4first');
+}
+
 const { Client, GatewayIntentBits, Partials, SlashCommandBuilder, Routes, REST } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
@@ -160,6 +165,16 @@ const client = new Client({
     ],
     partials: [Partials.Channel]
 });
+
+client.on('debug', info => {
+    if (!info.includes('Heartbeat acknowledged') && !info.includes('Sending a heartbeat')) {
+        console.log(`[DJS DEBUG] ${info}`);
+    }
+});
+client.on('error', err => console.error('[DJS ERROR]', err));
+client.on('shardError', (err, id) => console.error(`[SHARD ${id} ERROR]`, err));
+client.on('shardDisconnect', (ev, id) => console.warn(`[SHARD ${id} DISCONNECT]`, ev));
+client.on('shardReady', (id) => console.log(`[SHARD ${id} READY]`));
 
 let pinnedCatalogMessageId = null;
 
@@ -576,6 +591,10 @@ if (!TOKEN || TOKEN === "YOUR_DISCORD_BOT_TOKEN_HERE") {
     console.log("\n⚠️ [DISCORD_TOKEN MISSING]");
     console.log("โปรดใส่ Discord Bot Token ของคุณในไฟล์ PayomboyZ-DiscordBot/.env เพื่อเริ่มทำงาน\n");
 } else {
+    dns.lookup('discord.com', { all: true }, (err, addresses) => {
+        if (err) console.error("DNS lookup discord.com error:", err);
+        else console.log("DNS discord.com resolved:", JSON.stringify(addresses));
+    });
     console.log("🔑 Authenticating with Discord Gateway...");
     client.login(TOKEN).then(() => {
         console.log("🔓 Discord client.login Promise resolved successfully.");
