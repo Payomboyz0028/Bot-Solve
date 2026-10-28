@@ -595,6 +595,28 @@ if (!TOKEN || TOKEN === "YOUR_DISCORD_BOT_TOKEN_HERE") {
         if (err) console.error("DNS lookup discord.com error:", err);
         else console.log("DNS discord.com resolved:", JSON.stringify(addresses));
     });
+
+    // Test direct REST call to Discord API
+    (async () => {
+        try {
+            console.log("🌐 Testing direct fetch to Discord API...");
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 10000);
+            const res = await fetch('https://discord.com/api/v10/gateway/bot', {
+                headers: {
+                    'Authorization': `Bot ${TOKEN}`,
+                    'User-Agent': 'DiscordBot (https://github.com/Payomboyz0028/Bot-Solve, 1.0.0)'
+                },
+                signal: controller.signal
+            });
+            clearTimeout(timeout);
+            const text = await res.text();
+            console.log(`📡 Discord API direct test: HTTP ${res.status} -> ${text.slice(0, 200)}`);
+        } catch (e) {
+            console.error("❌ Direct fetch to Discord API error:", e.name, e.message);
+        }
+    })();
+
     console.log("🔑 Authenticating with Discord Gateway...");
     client.login(TOKEN).then(() => {
         console.log("🔓 Discord client.login Promise resolved successfully.");
