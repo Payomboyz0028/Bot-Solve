@@ -9,13 +9,15 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "PAYOMBØYZ HUB | Hunting Together | PayomboyUIz UI (v6.0 - Ultimate Kaitun 24/7)",
-        "👑 Master Kaitun Mode (เปิด/ปิดไก่ตัน 24/7 คุมระบบย่อยทั้งหมดได้อย่างอิสระ)",
-        "⚔️ Multi-Mode Combat Engine:",
-        "🚀 Ground Farm (ประชิดพื้น ดาเมจขึ้น 100% แก้บัคตีไม่เข้า ไม่โดนแบน Fly)",
-        "⭐ Built-in Bot (บอทแท้ในเกม ฉลาด ปลอดภัย ไม่โดนแบน)",
-        "☁️ Safe Hover (ลอยฟ้าเหนือหัว 5-7 studs)",
-        "🎯 Advanced Targeting:"
+        "👑 Master Kaitun Mode: เปิด/ปิดไก่ตัน 24/7 คุมระบบย่อยทั้งหมดอย่างอิสระ",
+        "⚔️ Multi-Mode Combat: Ground Farm (ประชิดพื้น ดาเมจขึ้น 100%), Built-in Bot, Safe Hover ลอยฟ้า",
+        "🎯 Advanced Targeting: ล่าตามเควสต์, คำนวณตามเลเวล, ล็อคเฉพาะมอน/บอส, Nearest",
+        "🛡️ Bug Fixes: ปลดม่านกั้น Map.Barriers 216 ชิ้น, แก้บัคดาเมจไม่ขึ้น, เคลียร์เป้าหมายที่ตายทันที",
+        "🧪 24/7 Survival: Auto HP/SP Potions, Auto ซื้อยาในเมือง, Auto Instant Respawn, Vacuum Loot",
+        "🎒 Bag & Shop: Multi-select Whitelist เลือกขายไอเทมขยะ ล็อคหินตีบวก/ของบอส",
+        "📊 Build & Progression: Auto Stats (7 Presets), Auto Skill Tree, Auto Equip Best Gear, Auto Refine",
+        "📜 Quests & Rewards: Auto เควสต์หลัก, Daily, Battle Pass, Halloween Event",
+        "⚡ 24/7 Stability: VirtualUser Anti-AFK, Auto Reconnect, GPU Saver ปิดเรนเดอร์ 3D"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-ec077f91c3d7eb16f2a019561a4fd77b/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-a6891960122c87a1d3bec62fa1896a60/768/432/Image/Png/noFilter"
@@ -29,10 +31,14 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "👑 Start with a small colony and grow it into a massive ant empire! Roll ants, collect food, earn money & auto upgrades.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👑 Master Kaitun Core: ระบบอัตโนมัติสร้างอาณาจักรมดตั้งแต่รังแรกถึงระดับสูงสุด",
+        "🐜 Ant Spawner & Merge: ออโต้เสกมดระดับเทพ ผสมมดเลเวลสูงอัตโนมัติ",
+        "💰 Money & Food Collector: ดูดอาหารและเก็บเงินทั่วรังในเสี้ยววินาที",
+        "📈 Auto Colony Upgrades: อัพเกรดรังมด โซนฟาร์ม และอุปกรณ์ผลิตเงินอัตโนมัติ",
+        "⚔️ Boss Hunt & Raid Tracker: ส่งกองทัพมดล่าบอสและบอสอีเวนต์อัตโนมัติ",
+        "🎃 Seasonal Event Farm: ออโต้เก็บไอเทมเควสต์กิจกรรมและแลกของรางวัลหายาก",
+        "📍 Plot & Shop Teleport: วาร์ประหว่างรัง ร้านค้า และอารีน่าบอสทันที",
+        "⚡ Enterprise Stability: ป้องกันหลุด 20 นาที, Auto Reconnect, โหมดประหยัด CPU"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-2ecdf7263d095e2530296eea45bbb714/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-aa839f9848a1e25dd47494f010b0ee11/768/432/Image/Png/noFilter"
@@ -46,10 +52,15 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "⛏️ Your Anime Characters break rocks for ores. Level Up crew damage, roll OP Enchantments, auto mine & trading!",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👑 Master Kai-Tan Pipeline: รันทุกระบบแบบมีคิว Sequenced ไม่แย่งงานกัน 100%",
+        "⛏️ Mining Engine: ขุดแร่ทุกโซนอัตโนมัติ เลือกระดับแร่เป้าหมาย Instant Mine ความเร็วสูง",
+        "💎 Smart Selling: ขายแร่อัตโนมัติเมื่อกระเป๋าเต็ม ระบบ Whitelist ล็อคแร่เทพห้ามขาย",
+        "🛠️ Gear & Research: ซื้อและอัพเกรดอีเต้ระดับท็อป วิจัยบัฟเพิ่มพลังขุดอัตโนมัติ",
+        "👥 Miners Management: อัพเลเวลคนขุด จัดทีมตัวละครดาเมจสูงสุดลงฟาร์ม",
+        "✨ Mutations & Enchants: ออโต้รี Mutation ระดับแรร์ และลงมนต์สะกดเสริมดาเมจ",
+        "🗺️ Zone Warp: วาร์ปข้ามโซน 1 ถึงโซนสูงสุดได้ทันทีโดยไม่ต้องเดิน",
+        "🛡️ Adonis Disarmer: ปลดระบบแอนตี้ชีตตัวเกมแบบ GC Upvalue ไม่โดนแบน 100%",
+        "⚡ 24/7 Automation: Anti-AFK ป้องกันหลุด, Auto Rejoin, GPU Saver ประหยัดไฟ 80%"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-7e4719a3bd7b06775dc43bc30aa2b913/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-831892d76d78c59d59cfc5d732eab590/768/432/Image/Png/noFilter"
@@ -63,10 +74,14 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🎯 เลือกผู้รอดชีวิต แล้วลงสนามในมุมมองบุคคลที่หนึ่ง! Silent Aim, Instant Reload, No Recoil & Item ESP.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎯 Center-Lock Aimbot: ล็อคเป้าแม่นยำ ปรับแต่ง FOV Circle และความเนียนได้",
+        "🔫 Full GC No-Recoil: ปืนนิ่งสนิท 100% ไร้แรงถอย ยิงตรงจุด Instant Reload",
+        "👁️ Full Chams & Box ESP: มองเห็นผู้เล่น ซอมบี้ หลอดเลือด และชื่อทะลุกำแพง",
+        "🩸 Reactive Auto-Heal: ปั๊มเลือดและพันผ้าพันแผลอัตโนมัติทันทีที่เลือดลด",
+        "🎒 UUID Auto-Loot Engine: ดูดปืน กระสุน ยา และไอเทมหายากเข้ากระเป๋าทันที",
+        "🏦 SafeZone Stash Sync: วาร์ปเก็บของเข้าตู้เซฟและเติมกระสุนอัตโนมัติ",
+        "🚀 Movement & Fly: เพิ่มความเร็วเดิน บินสำรวจแมพ และ Noclip ทะลุสิ่งกีดขวาง",
+        "🌐 Bilingual Support: รองรับเมนูภาษาไทย (TH) และภาษาอังกฤษ (EN) เต็มรูปแบบ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-49e3ef288d98c94fd78d4ba8e1000a91/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-fd49cbb405d8685bf676d8998c8932dc/768/432/Image/Png/noFilter"
@@ -80,10 +95,14 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "Dungeon Quest Reborn brings back the classic dungeon crawl! Auto Farm Nightmare, God Mode & Instant Boss Loot.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⚔️ Kill Aura & Hitbox: กำจัดมอนสเตอร์รอบตัวอัตโนมัติ ขยายขนาดฮิตบ็อกซ์โจมตี",
+        "🏰 Auto Dungeon Loop: ลงดันเจี้ยน Nightmare/Insane อัตโนมัติ Auto Retry & Next Level",
+        "🪄 Smart Auto Skills & Heal: ร่ายสกิลเวทย์/คอมแบทต่อเนื่อง ปั๊มฮีลอัตโนมัติเมื่อเลือดต่ำ",
+        "🧲 Mob Vacuum & Teleport: รวบรวมมอนสเตอร์ทั้งดันมาไว้ตรงหน้าเพื่อเคลียร์ในครั้งเดียว",
+        "📊 Auto Stats & Build: อัพค่าสเตตัส (Physical / Spell / Stamina) อัตโนมัติ",
+        "🎁 Auto Rewards & Daily: กดรับเควสต์ประจำวัน รางวัลความสำเร็จ และของขวัญฟรี",
+        "👁️ Dungeon ESP: แสดงตำแหน่งหีบสมบัติ มอนสเตอร์ และบอสในดันเจี้ยน",
+        "⚡ 24/7 Anti-AFK: ป้องกันหลุดข้ามคืน ปิดกราฟิก 3D สำหรับเปิดฟาร์มหลายจอ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-d13343c88123bc91d4bc01c3fb7afbeb/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-70c1d4c8beaf4aa7f463b9556abfe4c9/768/432/Image/Png/noFilter"
@@ -97,10 +116,13 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "⚡ In this game of focus, timing, and strategy. AI Predictive Auto Parry, Curve Ball Catch & Anti-Lock.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⚡ Predictive AI Auto Parry: ปัดบอลอัจฉริยะคำนวณความเร็ว ระยะทาง และความเร่งอัตโนมัติ",
+        "🌪️ Curve & Slash Detection: ดักจับบอลไซด์โค้งและสกิลฟันพิเศษได้อย่างแม่นยำ",
+        "🔥 Clash Auto Spam: รัวปัดบอลความเร็วสูงเมื่อเกิดจังหวะ Clash ประชิดตัว ไม่แพ้แน่นอน",
+        "🛡️ Auto Defensive Skills: ร่ายสกิลเอาตัวรอด (Infinity, Rapture, Dash) ทันทีเมื่อตกเป็นเป้าหมาย",
+        "🎯 Ball & Tracer ESP: แสดงเส้นวิถีลูกบอลล่วงหน้า พร้อมไฮไลท์ผู้เล่นที่กำลังเป็นเป้าหมาย",
+        "🚀 Curve Jump & Anti-Lock: เคลื่อนที่หลบมุมอับและสปริงตัวสวนจังหวะบอลอย่างมีชั้นเชิง",
+        "🎮 Custom Timing Offset: ปรับแต่งระยะมิลลิวินาทีในการกดปัดบอลให้เหมาะกับค่า Ping ของผู้เล่น"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-38e75c9ff1051ad6ca868f39be2cf095/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-be150ba07c74cd57deb31791c2675323/768/432/Image/Png/noFilter"
@@ -114,10 +136,14 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "Welcome to +1 Loot To Forge ⚔️ Click to gain power, defeat mega bosses and craft mythical god swords.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👑 Master Kaitun Dashboard: ออโต้ฟาร์มพลัง คราฟต์ดาบเทพ และลงดันเจี้ยนแบบ Full-Auto",
+        "🧲 Loot & Magnet: ดูดแร่และของดรอปทั่วทั้งแมพเข้าตัวทันที Auto ขายแร่ขยะ",
+        "⚔️ Boss Hunt Engine: ล็อคเป้าและกำจัด Mega Bosses ทุกตัวอัตโนมัติ แจ้งเตือนบอสเกิด",
+        "💪 Auto Training: ออโต้คลิกเกอร์เร่งพลังโจมตี ปั๊ม Multiplier ความแรงแบบก้าวกระโดด",
+        "🔨 God Sword Forge: ออโต้หลอมดาบเทพในตำนาน (Mythical God Swords) ผสมและตีบวก",
+        "🥚 Pets & Eggs: สุ่มฟักไข่สัตว์เลี้ยงระดับตำนาน ติดตั้งสัตว์เลี้ยงที่เพิ่มสเตตัสสูงสุด",
+        "🧬 Races & Potions: ออโต้สุ่มเผ่าพันธุ์เทพ ดื่มน้ำยาบัฟพลังอัตโนมัติ",
+        "📍 Teleports & Server Hop: วาร์ปไปยังทุกโซนอย่างรวดเร็ว และย้ายเซิร์ฟเวอร์หาบอส"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-933c3d4689bb61d220d3d862135f8637/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-82066d8599c04685dafed829784abc81/768/432/Image/Png/noFilter"
@@ -131,10 +157,12 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "⚔️ Hack & Slash Dungeon ARPG ⚔️ Play as epic champions. Auto Mob Kill, Speed Dungeon Clear & Godmode.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⚔️ Auto Mob Kill Aura: ฟันศัตรูทุกตัวในดันเจี้ยนด้วยออร่าความเร็วสูง ไม่ต้องเดินเข้าใกล้",
+        "⚡ Speed Dungeon Clear: วิ่งผ่านห้องดันเจี้ยนด้วยความเร็วสูง เคลียร์จบในเสี้ยววินาที",
+        "🛡️ God Mode & Inf Mana: เลือดและมานาไม่มีวันหมด ปลอดภัยจากการโจมตีทุกชนิด",
+        "🎁 Auto Loot Mythic Gear: คัดกรองและดูดเฉพาะอุปกรณ์เกราะ/อาวุธระดับ Mythic เข้าตัว",
+        "🎲 Auto Re-roll Stats: รีออฟชั่นอุปกรณ์อัตโนมัติจนกว่าจะได้ค่าสเตตัสระดับสูงสุด",
+        "🏰 Endless Raid Runner: ลงดันเจี้ยนซ้ำต่อเนื่อง 24 ชั่วโมง พร้อมระบบ Auto Reconnect"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-534c0c6f261c1fcaa1cadd0e30a1a684/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-dc8d4ec5337145ba2f463b7d8242ecb5/768/432/Image/Png/noFilter"
@@ -148,10 +176,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "👻 Ride A Pet! How to Play: 🥚 Find Eggs, Speed Boost Racing & Auto Hatch Legendary Mounts.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🥚 Auto Hatch Legendary Mounts: สุ่มฟักไข่พาหนะและสัตว์ขี่ระดับตำนาน/อีเวนต์ฮาโลวีน",
+        "🏎️ Speed Boost Racing: เร่งความเร็วการขี่สูงสุด ชนะการแข่งขันทุกสนามแบบ 100%",
+        "🍬 Auto Collect Candies: ดูดลูกกวาดฮาโลวีนและเหรียญทองทั่วแผนที่อัตโนมัติ",
+        "🐎 Stable Upgrades: อัพเกรดคอกสัตว์และความเร็วการเคลื่อนที่ของพาหนะอัตโนมัติ",
+        "🎁 Auto Event Quests: เคลียร์เควสต์กิจกรรมเพื่อปลดล็อคพาหนะพิเศษลิมิเต็ด"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-aa025ba8c5065f685faf7206b6ad4a1c/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-3ffbd41c5b51c95ae19350431588608e/768/432/Image/Png/noFilter"
@@ -165,10 +194,12 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🦈 Welcome to Fisch 🦈 Dive into Fisch with Instant Catch, Auto Reel, Infinite Bait & Mythic Fish Radar.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎣 Instant Catch & Auto Reel: ดึงเบ็ดติดทันที 100% ไม่ต้องเล่นมินิเกม ปลากัดปุ๊บได้ตัวปั๊บ",
+        "🍀 Infinite Bait & Rod Luck: ไม่เสียเหยื่อตกปลา พร้อมบัฟเพิ่มโอกาสเจอปลา Mythic/Secret",
+        "💰 Auto Sell at Merchant: วาร์ปไปขายปลาที่พ่อค้าอัตโนมัติเมื่อปลากระเป๋าเต็ม",
+        "📡 Fish Radar & Weather ESP: เรดาร์สแกนหาจุดปลาในตำนานและสภาพอากาศ (Aurora, Fog, Meteor)",
+        "🏝️ Safe Fishing Platform: ยืนตกปลาบนแพลอยฟ้ากลางทะเล ไม่จมน้ำ ไม่โดนฉลามกัด",
+        "🗺️ Island Teleports: วาร์ปไปตกปลาได้ทุกเกาะในเกมทันที"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-53aa8e02a9fdac8deaa0f697a2aaad9a/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-a2846a75df26a929cc2f526aecdfaef9/768/432/Image/Png/noFilter"
@@ -182,10 +213,13 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "OUT NOW: 🧲 Magnet + 🌴 Sea 1 + Mythic Weapons Auto Farm! Kaitun Level 1-2600, God Human, CDK & Mirage Sniper.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👑 Master Kaitun 1-2600: บอทเวลตั้งแต่โลก 1 ถึงโลก 3 รับเควสต์ ตีมอนตรงเลเวลอัตโนมัติ 24/7",
+        "🥊 Auto Godhuman & Melee: ทำหมัดก็อดและเก็บมาสเตอรี่หมัดทุกสไตล์ครบ 600 อัตโนมัติ",
+        "⚔️ Auto CDK & Soul Guitar: ทำเควสต์ดาบคู่ Cursed Dual Katana และปืน Soul Guitar ครบทุกขั้นตอน",
+        "🌌 Mirage & Race V4: สไนป์เกาะเงา ดึงคันโยก ล็อคเกียร์ และลงฟาร์มไทร์ V4 อัตโนมัติ",
+        "👑 Boss Hunt & Mythic Drops: ล่าบอสทุกตัวในเกม (Rip Indra, Dough King, Katakuri)",
+        "🧲 Chest Magnet & Fruit Sniper: ดูดกล่องเงินทั้งแมพ สไนป์ผลปีศาจที่เกิดในเซิร์ฟทันที",
+        "⚡ Fast Attack Bypass: ฟันรัวแบบไม่มีดีเลย์ ไม่หลุด ไม่โดนแอนตี้ชีตดีด"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-774ec14539b264f85fdb6e8a34dfa344/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-09e621f1df2e404a391adf389d2bea47/768/432/Image/Png/noFilter"
@@ -199,10 +233,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "Plant seeds and watch your trees grow into giant money makers! Auto Plant, Auto Water & Fast Golden Crop Harvest.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🌱 Auto Plant & Fast Growth: หว่านเมล็ดพืชอัตโนมัติและเร่งเวลาการเจริญเติบโต",
+        "💧 Auto Water & Fertilize: รดน้ำและใส่ปุ๋ยบำรุงต้นไม้อัตโนมัติทั่วแปลง",
+        "🌟 Harvest Golden Crops: เก็บเกี่ยวผลผลิตสีทองและผลไม้หายากทันทีที่สุก",
+        "💰 Auto Sell & Rebirth: ขายผลผลิตสร้างรายได้มหาศาล และกดเกิดใหม่อัตโนมัติ",
+        "🚜 Plot Expansion: ปลดล็อคและขยายพื้นที่แปลงเกษตรกรรมให้ใหญ่ขึ้นโดยอัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-5cf06bf3a4b241bbeba1e701fca5d106/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-66c657e006bace58137f8cb74240bd00/768/432/Image/Png/noFilter"
@@ -216,10 +251,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "⚔️ Steal An Anime Egg! Fast Speed Grab, Auto Collect Super Eggs & Anti-Ragdoll Shield.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🏃 Ultra Speed Grab: วิ่งด้วยความเร็วแสงและฉกไข่อนิเมะอัตโนมัติ",
+        "🧺 Instant Basket Teleport: วาร์ปนำไข่กลับมาส่งที่ตะกร้าของตัวเองภายใน 0.1 วินาที",
+        "🛡️ Anti-Ragdoll Shield: ระบบป้องกันการล้ม ป้องกันการโดนผู้เล่นอื่นสตั๊นท์หรือผลัก",
+        "🥚 Auto Hatch Mythical: ฟักไข่อนิเมะระดับตำนานเพื่อปลดล็อคสัตว์เลี้ยงคู่ใจ",
+        "🔒 Base Defense: ป้องกันไม่ให้ศัตรูเข้ามาขโมยไข่ในฐานของเรา"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-49cb18f6f36e3b07d0cf308e9095d2d0/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-911cb7df3a74ea4704efc3f834130bb3/768/432/Image/Png/noFilter"
@@ -233,10 +269,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "🐓 Welcome to Grow a Chicken Fighter! Auto Feed, Fast Train, Arena God Mode & Mythic Chicken Breed.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🐓 Auto Feed & Fast Training: ป้อนอาหารและนำไก่ชนเข้าเครื่องฝึกซ้อมอัตโนมัติ",
+        "🥊 Arena God Mode: ส่งไก่ลงสนามประลอง ออโต้ตีไก่คู่ต่อสู้ ชนะทุกไฟต์",
+        "🥚 Hatch Mythic Breeds: ฟักไข่สายพันธุ์ไก่ชนระดับเทพ Stat โหด",
+        "🏆 Auto Claim Trophies: สะสมถ้วยรางวัลและรับเงินรางวัลจากการชนไก่อัตโนมัติ",
+        "💊 Potion & Boost Auto-Drink: ดื่มยาเพิ่มพลังกล้ามเนื้อและความเร็วให้ไก่ชน"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-0b469c2a4bfe42b3fd73fae278cd54a9/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-8403e52cfc77a0fb4df895e64943deab/768/432/Image/Png/noFilter"
@@ -250,10 +287,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "☘️ Build the ULTIMATE Garden! IT GROWS WITH GNOMES! Auto Roll 100x Speed, Rare Gnome Tracker & Instant Sell.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎲 100x Speed Auto Roll: สุ่มหาโนมด้วยความเร็วสูงสุด ข้ามแอนิเมชั่นทั้งหมด",
+        "🧙 Rare Gnome Auto-Equip: ตรวจจับและติดตั้งโนมระดับหายาก/มิธทิคลงสวนทันที",
+        "🗑️ Smart Auto Sell: คัดแยกและขายโนมระดับธรรมดาทิ้งเพื่อคืนพื้นที่ในกระเป๋า",
+        "💰 Plot Multiplier Boost: คำนวณบัฟและเพิ่มอัตราการผลิตเงินในสวนสูงสุด",
+        "📜 Quest & Index Unlock: ปลดล็อคสมุดสะสมโนมและรับรางวัลความสำเร็จครบทุกชิ้น"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-4cf2240ff04c75267a735877079f7575/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-21cf2f6359504efcbf97aacd0269c40a/768/432/Image/Png/noFilter"
@@ -267,10 +305,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "Build a camp with friends. Something lurks in the dark. Auto Chop Wood, Monster Freeze, Full ESP & God Mode.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🪓 Auto Cut Wood & Resources: สับไม้และดูดทรัพยากรทั้งป่ามาเก็บที่แคมป์อัตโนมัติ",
+        "❄️ Monster Freeze & Aura: แช่แข็งและกำจัดมอนสเตอร์ในเงามืดทันทีที่เข้าใกล้แคมป์",
+        "👁️ Full Bright & No Fog: ปรับทัศนวิสัยสว่างสดใส มองเห็นรอบป่า ไม่มีหมอกบังตา",
+        "❤️ God Mode & Inf Hunger: พลังชีวิตไม่ลด ความหิวและความอบอุ่นเต็มตลอด 99 คืน",
+        "🏕️ Auto Build & Repair: ซ่อมแซมรั้ว ป้อมปราการ และอัพเกรดแคมป์อัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-c162b715402c51fd948c6686d668456d/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-ee923b1e9ac5564624ee9c484006166c/768/432/Image/Png/noFilter"
@@ -284,10 +323,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "May, 2007 - Japan An INTENDED Slice-of-life High School combat game. Auto Parry, Infinite Stamina & Combat Combo.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🥋 Auto Parry & Counter: ปัดป้องการโจมตีอัตโนมัติ 100% และสวนกลับด้วยคอมโบหมัดหนัก",
+        "⚡ Infinite Stamina: สตามิน่าไม่ลด วิ่งหนีและไล่ล่าศัตรูได้ต่อเนื่องตลอดเวลา",
+        "👊 Stun Lock Combo: ปล่อยคอมโบหมัดและเตะล็อคคู่ต่อสู้ให้ล้มและไม่สามารถตอบโต้ได้",
+        "👁️ Player Radar & Health ESP: แสดงตำแหน่ง ทิศทาง และพลังชีวิตของคู่ต่อสู้ทุกคน",
+        "🛡️ Block Breaker: โจมตีทะลวงการบล็อคของการ์ดศัตรูทันที"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-c29536873931baa603c4563dae422eba/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-0d625ab4bae83fdb51f3912cfa921f42/768/432/Image/Png/noFilter"
@@ -301,10 +341,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "Welcome to Sniper Arena — Fast-paced sniper battles! Silent Aim, Wallbang, Infinite Ammo & Target ESP.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎯 Silent Aim & Bullet Curve: กระสุนเลี้ยวเข้าหัวศัตรูอัตโนมัติ แม่นยำ 100% Headshot",
+        "🔫 No Recoil & Instant Reload: ปืนสไนเปอร์นิ่งสนิท ไร้แรงถีบ รีโหลดกระสุนทันที",
+        "🧱 Wallbang & Penetration: ยิงทะลุกำแพงและสิ่งกีดขวางได้ทุกจุดในแผนที่",
+        "👁️ Player Chams & Hitbox Expander: มองทะลุกำแพงและขยายฮิตบ็อกซ์ตัวละครศัตรู",
+        "🚀 Fly & Speed Bypass: บินลอยตัวหามุมสไนป์บนฟ้า และเคลื่อนที่ความเร็วสูง"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-758de9ceefed6ff1a1592c5ebab598ce/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-41326a752aca93f2fd10aa7e8f5c911d/768/432/Image/Png/noFilter"
@@ -318,10 +359,12 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "NEW CODE at 1,450,000 LIKES! Defend humanity with advanced ODM gear. Auto Slay Titans, Infinite Gas & Nape Lock.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⚔️ Auto Slay Titans (Nape Lock): ล็อคเป้าและพุ่งฟันจุดท้ายทอยไททันอัตโนมัติ",
+        "💨 Infinite Gas & Blades: แก๊สไม่มีวันหมด ใบมีดดาบไม่มีวันหัก ฟันได้ต่อเนื่อง",
+        "👹 Auto Titan Shift: แปลงร่างเป็นไททันอัตโนมัติเมื่อเข้าตาจนหรือต่อสู้กับบอส",
+        "🏰 Fast Raid & Mission Clear: เคลียร์เรดและภารกิจกวาดล้างไททันในระดับสูงสุด",
+        "🧬 Auto Spin Families: สุ่มตระกูลเทพ (Yeager, Ackerman, Reiss) จนกว่าจะได้",
+        "⚡ Talent Tree Auto Upgrade: อัพเกรดพรสวรรค์และสกิลการต่อสู้อัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-b5b0d5438b8f70eca4dc9311ac541afc/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-d72c3cae696292e59f459d51dc79e17d/768/432/Image/Png/noFilter"
@@ -335,10 +378,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "💤 PACKS OPEN AND MONEY GENERATOR! Auto Buy Best Packs, Secret Card Sniper & Infinite Rebirth.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🃏 Auto Buy Best Card Packs: ซื้อและเปิดแพ็คการ์ดที่ดีที่สุดในเกมอัตโนมัติ",
+        "✨ Secret & Mythic Sniper: ตรวจจับและล็อคการ์ดอนิเมะระดับ Secret ไม่ให้เผลอขาย",
+        "💰 Money Multiplier Generator: ปั๊มเงินสดและฟาร์มรายได้ต่อเนื่อง 24 ชั่วโมง",
+        "🔄 Auto Rebirth & Area Unlock: เกิดใหม่เพื่อรับตัวคูณและปลดล็อคพื้นที่การฟาร์มใหม่",
+        "🎴 Auto Deck Optimization: จัดเด็คการ์ดที่มีพลังโจมตีและโชคสูงสุดลงสนามอัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-5a49765296a161da3c0dec8ba35cf509/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-ddbb8f3b68bef5516e2b6365d0cd08c8/768/432/Image/Png/noFilter"
@@ -352,10 +396,11 @@
       "tier": "VIP",
       "hotkey": "RightShift / Mobile Button",
       "features": [
-        "In Capybaras VS Plants, 🥚 Hatch CAPYBARAS! Auto Plant, Instant Sun Farm & Wave Auto-Skip.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🌱 Auto Plant & Solar Farm: ปลูกพืชป้องกันและดูดแสงอาทิตย์อัตโนมัติทันทีที่ตก",
+        "🌊 Wave Auto-Skip: ข้ามเวฟเพื่อเร่งความเร็วในการฟาร์มเงินและเหรียญรางวัล",
+        "⚔️ Boss Destroyer Aura: กำจัดพืชกลายพันธุ์และบอสพืชในเสี้ยววินาที",
+        "💰 Auto Harvest & Sell: เก็บเกี่ยวผลผลิตและนำไปขายที่ร้านค้าสร้างกำไรมหาศาล",
+        "🦫 Capybara Spawner: เรียกกองทัพคาปิบาราออกมาช่วยต่อสู้อัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-0fcbef8005f7014556d32c45120730b6/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-e5f7c3dd0543bc913e51ce36ee22a469/768/432/Image/Png/noFilter"
@@ -369,10 +414,12 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "🥊 Untitled Boxing Game! Master Auto Dodge, Auto Counter-Attack Punish, Humanized Footwork & Combat Radar.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🥊 Perfect Auto Dodge: หลบหมัดอัตโนมัติ 100% ตามจังหวะอนิเมชั่นของคู่ต่อสู้",
+        "💥 Counter-Attack Punish: ต่อยสวนจังหวะ Perfect Dodge ทำดาเมจคริติคอลสูงสุด",
+        "🛡️ Auto Feint & Guard Break: หลอกล่อและต่อยเจาะการตั้งการ์ดของคู่ต่อสู้ทันที",
+        "⚡ Infinite Stamina & Quick Guard: สตามิน่าไม่หมด ฟื้นฟูเกจการ์ดเร็วกว่าปกติ",
+        "🎰 Auto Style Spin: สุ่มหาสไตล์การชกระดับแรร์ (Slugger, Hitman, Hawk, Chronos)",
+        "🎚️ Humanized Delay Slider: ปรับแต่งความเร็วในการหลบหมัดให้ดูเหมือนคนเล่นจริง"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-7ba60f5663e5223b3a00b6d7885b5392/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-103aa77f54bcddf2c7b0ba1026c8a44e/768/432/Image/Png/noFilter"
@@ -386,10 +433,14 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "👑 Anime Zero is an immersive anime dungeon crawler. Shadow Extraction, Solo Raid & Instant Rank S Hunter.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👑 Master Kaitun Mode: ไก่ตันอัตโนมัติ บอทเล่นให้ตั้งแต่เลเวล 1 ถึง Rank S Hunter",
+        "⚔️ Combat & Combo Engine: Auto Farm มอนทุกตัวในดัน, Auto Skill & Skill-G ร่ายสกิลต่อเนื่อง",
+        "👥 Auto Arise (Shadow Monarch): สกัดเงาศัตรูและบอสมาเป็นทหารเงาช่วยสู้ทันทีตามสไตล์ Solo Leveling",
+        "🛡️ Dynamic Movement & Boss Dodge: Auto Dodge บอส Igris, Auto Retreat ถอยหนีเมื่อเลือดต่ำ",
+        "🏰 Auto Dungeon Progression: Auto Next Chapter ดันเนื้อเรื่อง, Auto Retry ดันเดิม, Auto Leave",
+        "🎰 Lobby & Progression: Auto Summon ตัวโปรด, Auto Trait รีหา Mythic, Auto Evolve & Craft",
+        "📜 Quests & Codes: Auto Claim เควสต์, Milestones, Achievements, Auto กรอกโค้ดใหม่ทั้งหมด",
+        "⚡ 24/7 Enterprise: Anti-AFK ป้องกันหลุด 20 นาที, Auto Reconnect, GPU Saver ประหยัดไฟ 80%"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-257fa143cd024ad1651d327f945cd9c7/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-e39619ef058d235e4250e59c8d3652c7/768/432/Image/Png/noFilter"
@@ -403,10 +454,13 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "📱 🎮 Mobile and Console users can edit their Aim Assist sensitivity in settings. Auto Breathing, Infinite Stamina & God Mode.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🧬 Clan & Demon Art Spin: ออโต้สปินหาตระกูล Supreme (Kamado, Agatsuma) และมนต์อสูรโลหิต",
+        "⚔️ Auto Farm & Mastery: ฟาร์มเลเวล มอนสเตอร์ และปั๊มมาสเตอรี่ดาบ/หมัด/ปราณอัตโนมัติ",
+        "🌬️ Auto Breathing Train: ฝึกปราณหายใจอัตโนมัติ พร้อมบัฟ Infinite Breathing Stamina",
+        "👑 Boss Sniping Engine: ล่าบอสทุกตัวในเกม (Akaza, Muzan, Douma) ดรอปไอเทมแรร์",
+        "☀️ Anti-Sun Damage: ป้องกันแสงแดดเผาสำหรับผู้เล่นสายอสูร (Demon) เดินกลางวันได้ปกติ",
+        "🗺️ Village Teleports: วาร์ปข้ามหมู่บ้านและดันเจี้ยนทั้งหมดในพริบตา",
+        "⚡ 24/7 Stability: ป้องกันหลุดข้ามคืน และปรับแต่งค่ากราฟิกเพื่อความลื่นไหล"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-8f6e03e81105f9c8f310b91758896236/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-be58ae399c4afe62c9626060ddaf6c91/768/432/Image/Png/noFilter"
@@ -420,10 +474,14 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "👋 Welcome to Anime Dice! 💵 MONEY, Auto Roll, Max Luck Multiplier & Instant Secret Collector.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎲 Roll & Kai-Tan 24/7: ออโต้สุ่มลูกเต๋าและรันระบบไก่ตันแบบ Full-Auto",
+        "💰 Plot Income & Teams: เก็บรายได้จากพล็อตอัตโนมัติ จัดทีมตัวละครที่เพิ่มเงินสูงสุด",
+        "🛍️ Dice Shop & Upgrades: ซื้อลูกเต๋าใหม่และอัพเกรดค่าสเตตัสอัตโนมัติ",
+        "📈 Unit Leveling & Rebirth: อัพเลเวลตัวละคร รีหาเกรดระดับเทพ และเกิดใหม่อัตโนมัติ",
+        "🐉 Dragon Tower & Quests: ปีนหอคอยมังกรอัตโนมัติ เคลียร์เควสต์รับของรางวัลฟรี",
+        "🗑️ Smart Auto Sell: คัดแยกระดับความหายากและขายตัวซ้ำอัตโนมัติ",
+        "🧪 Boost Potions: ดื่มน้ำยาเพิ่มค่า Luck และความเร็วอัตโนมัติเมื่อหมดฤทธิ์",
+        "🎃 Halloween Event: ฟาร์มลูกกวาดกิจกรรมและปลดล็อครางวัลลิมิเต็ด"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-6eadd1cbe12feeb513bb90ce46070a07/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-0f94a2d3d0b8991744905f6686bf2bc8/768/432/Image/Png/noFilter"
@@ -437,10 +495,12 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "Dragons and men fought side by side. Auto Floor Clear, Mob Vacuum, Boss Instant Kill & Infinite Souls.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🏰 Auto Floor Clear: บุกตะลุยดันเจี้ยนเคลียร์ชั้นมอนสเตอร์ต่อเนื่องอัตโนมัติ",
+        "🧲 Mob Vacuum & Kill Aura: ดูดศัตรูทั้งหมดมารวมไว้จุดเดียวและกำจัดในครั้งเดียว",
+        "🎯 Boss Weakspot Sniping: โจมตีเข้าจุดอ่อนของบอส ทำดาเมจคูณมหาศาล",
+        "👻 Infinite Souls Farm: ฟาร์มแต้มวิญญาณเพื่อนำไปปลดล็อคพลังและสกิลขั้นสูง",
+        "🛡️ Auto Equip Best Armor: สวมใส่ชุดเกราะและอาวุธที่มีค่าพลังป้องกันสูงสุดอัตโนมัติ",
+        "⚡ 24/7 Auto Dungeon Loop: ลงดันเจี้ยนซ้ำข้ามคืนพร้อมระบบ Rejoin อัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-9f3937d807b20e7fa39828573229f4f0/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-6624e54164ae1e6a970c6ba71fb6776a/768/432/Image/Png/noFilter"
@@ -454,10 +514,11 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "Welcome to Anime Expeditions! 🕐 ★ Auto Dungeon Run, Kill Aura, Infinite Skills & Auto Upgrades.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⚔️ Auto Expeditions Run: ส่งกองทัพตัวละครลงสำรวจดันเจี้ยนและด่านฟาร์ม 24 ชั่วโมง",
+        "🌪️ Fast Clear Kill Aura: รัศมีดาเมจฟันศัตรูรอบตัวด้วยความเร็วสูง เคลียร์ด่านในเสี้ยววิ",
+        "📈 Auto Upgrades & Skills: อัพเกรดเลเวลตัวละครและสกิลประจำตัวอัตโนมัติ",
+        "🎁 Claim All Loot & Chests: ดูดหีบสมบัติและเก็บของดรอปหายากทั้งหมดเข้ากระเป๋า",
+        "👑 Boss Hunter: ล็อคเป้าหมายบอสประจำด่านและกำจัดทันทีที่ปรากฏตัว"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-0f226357e694c0ddbde19bc00ed16d18/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-f89a563023e8deaa03b122b1b4bb8a91/768/432/Image/Png/noFilter"
@@ -471,10 +532,11 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "🥚 Welcome to Steal An Egg! Hatch legendary mythical pets. Auto Grab, Speed Boost & Instant Basket Teleport.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🏃 Speed Boost & Auto Grab: วิ่งความเร็วสูงและฉกไข่จากรังเป้าหมายอัตโนมัติ",
+        "🧺 Instant Nest Teleport: วาร์ปส่งไข่กลับมารังของตัวเองทันทีใน 0.1 วินาที",
+        "🛡️ Anti-Stun & Barrier: ป้องกันการถูกสตั๊นท์หรือผลักกระเด็นจากผู้เล่นอื่น",
+        "🥚 Auto Hatch Legendary Pets: ฟักไข่สัตว์เลี้ยงในตำนานเพื่อรับบัฟความเร็วและโชค",
+        "💰 Coin Multiplier Farm: ปั๊มเหรียญทองและอัพเกรดขนาดตะกร้าใส่ไข่อัตโนมัติ"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-02351c6dea8f18de5c6fbe3311834287/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-875b2a6dc156ce6dd64eb637e73238ce/768/432/Image/Png/noFilter"
@@ -488,10 +550,12 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "Can you solve the Mystery and survive each round? Full Murderer/Sheriff ESP, Auto Grab Gun, Coin Farm & Silent Aim.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "👁️ Complete Role ESP: มองเห็นตำแหน่ง ฆาตกร (แดง), นายอำเภอ (ฟ้า), และผู้บริสุทธิ์ (เขียว)",
+        "🔫 Silent Aim & Knife Aura: ยิงปืนเข้าหัวฆาตกรอัตโนมัติ (Sheriff) หรือฟันผู้เล่นทุกคนในรัศมี (Murderer)",
+        "💰 Auto Farm Coins: วาร์ปเก็บเหรียญทองและลูกกวาดกิจกรรมเต็มกระเป๋าทุกรอบอย่างรวดเร็ว",
+        "🔫 Auto Grab Dropped Gun: วาร์ปไปเก็บปืนที่ตกพื้นทันทีที่นายอำเภอเสียชีวิต",
+        "🏃 Movement Mods: ปรับความเร็วเดิน บิน ลอยตัว และ Noclip ทะลุกำแพง",
+        "🎁 Auto Unbox: สุ่มเปิดกล่องอาวุธเพื่อหาปืน/มีดระดับ Godly และ Ancient"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-ab1484ff8063476d413da09dd25df93f/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-f483597f5ce44b2617413c11c7425802/768/432/Image/Png/noFilter"
@@ -505,10 +569,11 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "▲ Climb the mountain ⛏️ Mine rare crystals, fast auto-digging, infinite stamina & auto-ascend.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "⛏️ Fast Auto Digging: เจาะทะลวงภูเขาหินด้วยความเร็วสูงสุด ข้ามชั้นดินอัตโนมัติ",
+        "💎 Crystal Magnet: ดูดแร่คริสตัลและอัญมณีล้ำค่าทั้งหมดเข้ากระเป๋าทันที",
+        "🚀 Infinite Stamina & Jetpack: บินลอยตัวขุดเจาะได้อย่างอิสระโดยไม่ต้องพักสตามิน่า",
+        "💰 Auto Sell & Pickaxe Upgrade: ขายแร่อัตโนมัติและซื้ออีเต้อันดับสูงสุด",
+        "🏔️ Auto Ascend: ปีนขึ้นสู่ยอดเขาและปลดล็อคโซนขุดเจาะใหม่ๆ อย่างรวดเร็ว"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-6da5af2dceaa4c699437b605e04d0229/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-c815c2180f1a7227b8a10fe236650017/768/432/Image/Png/noFilter"
@@ -522,15 +587,16 @@
       "tier": "VVIP",
       "hotkey": "RightControl / Mobile Button",
       "features": [
-        "🔥 Roll an anime to fight! ⚡ Roll for powerful heroes, auto-combat, endless dungeon raids, and mythical loot.",
-        "ระบบ Auto Farm / Kaitun 24/7",
-        "รองรับมือถือและคอมพิวเตอร์",
-        "Bypass Anti-Cheat & Anti-AFK"
+        "🎲 Fast Auto Roll Heroes: สุ่มหาฮีโร่อนิเมะระดับเทพ ข้ามแอนิเมชั่นทั้งหมด",
+        "⚔️ Auto Combat & Endless Raid: ส่งฮีโร่ลุยศึกและลงเรดดันเจี้ยนอัตโนมัติ 24 ชม.",
+        "⭐ Auto Evolve & Star Up: วิวัฒนาการและเพิ่มดาวตัวละครเพื่อปลดล็อคพลังสูงสุด",
+        "🎁 Mythical Loot Collector: เก็บไอเทม อาวุธ และของรางวัลหายากทั้งหมดเข้าคลัง",
+        "👑 Boss Battle Engine: ล็อคเป้าหมายบอสและสั่งฮีโร่รุมกำจัดอย่างมีแบบแผน"
       ],
       "imageUrl": "https://tr.rbxcdn.com/180DAY-c244d27b9e9ad36bff88bbf3944208f0/512/512/Image/Png/noFilter",
       "coverUrl": "https://tr.rbxcdn.com/180DAY-6846bad16c319672d57af6f1a8520871/768/432/Image/Png/noFilter"
     }
   ],
   "total": 31,
-  "lastSync": "2026-10-28T00:44:39.407Z"
+  "lastSync": "2026-10-28T00:55:37.288Z"
 }

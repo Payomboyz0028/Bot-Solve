@@ -66,6 +66,12 @@ async function syncLiveGamesFromAPI() {
                 }
             }
 
+            // Preserve existing detailed features if already present in database
+            const existing = mapsDatabase.maps.find(m => m.id === cleanId || m.name.toLowerCase() === rawName.toLowerCase());
+            if (existing && existing.features && existing.features.length >= 4 && !existing.features.some(f => f.includes('ระบบ Auto Farm / Kaitun 24/7'))) {
+                features = existing.features;
+            }
+
             if (features.length === 0) {
                 if (g.description && g.description.length > 10) {
                     features = [g.description, "ระบบ Auto Farm / Kaitun 24/7", "รองรับมือถือและคอมพิวเตอร์", "Bypass Anti-Cheat & Anti-AFK"];
