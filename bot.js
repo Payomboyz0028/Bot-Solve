@@ -252,7 +252,7 @@ const client = new Client({
 
 // Build Solver Panel Message (Components V2 Container with Aggressive Cyberpunk Animated GIF)
 function buildSolverV2Payload() {
-    const gifUrl = "https://cdn.discordapp.com/attachments/1549827759457570906/1565343190066921642/payomboyz_key_management.gif?ex=6ae5e073&is=6ae48ef3&hm=ad544bf7a8749c00ad97123d81e32897107691f170a9d4f371d7f80e600757f7&";
+    const gifUrl = "https://cdn.discordapp.com/attachments/1563723925119176774/1566034512813498499/payomboyz_captcha_v2_solver.gif?ex=6ae712cb&is=6ae5c14b&hm=59a3e52d1a37fa01a655a8e5a115484363e71c6f31e81db6eef121f97e57303e&";
     return {
         flags: 32768,
         content: "",
